@@ -1,0 +1,38 @@
+*{
+    box-sizing:border-box;
+}
+*, *::before,*::after{
+    font:inherit;
+    padding:0;
+    margin:0;
+}
+body{
+    display:flex;
+    height:100vh;
+    justify-content:center;
+    align-items:center;
+    background-color:grey;
+    color:white;
+}
+.btn{
+    display:block;
+    background-color: red;
+    border-radius:1rem;
+    width: 10rem;
+    height: 5rem;
+    text-align:center;
+    line-height:5rem;
+    text-decoration:none;
+    box-shadow: 1rem 1rem black ;
+    font-size: 1rem;
+    transition: width 1.5s ease-out 1.5s, height 1.5s ease-in 1.5s, line-height 1.5s ease-in 1.5s, background-color 1.5s ease-in, box-shadow 1.5s ease-in-out, font-size 1.5s ease-out 1.5s;
+}
+.btn:hover{
+    background-color: green;
+    font-size: 1.5rem;
+    width: 15rem;
+    height: 7.5rem;
+    line-height: 7.5rem;
+    box-shadow: -1rem -1rem;
+}
+

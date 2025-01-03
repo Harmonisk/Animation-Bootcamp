@@ -1,0 +1,81 @@
+
+body{
+    height:100vh;
+    width: 100vw;
+}
+
+.card{
+    position:absolute;
+    left:45%;
+    top:40%;
+    width:200px;
+    height:300px;
+    transition: 1s linear 0s, 1s linear 0s;
+    /* translate:transformX(50px); */
+}
+
+
+#pink{
+    background-color:pink;
+}
+#violet{
+    background-color:violet;
+}
+#purple{
+    background-color:purple;
+}
+#aqua{
+    background-color:aqua;
+}
+#green{
+    background-color:green;
+}
+#light-green{
+    background-color:lightgreen;
+}
+#yellow{
+    background-color:yellow;
+}
+#orange{
+    background-color:orange;
+}
+#red{
+    background-color:red;
+}
+
+body:hover #pink{
+    transform:rotate(40deg);
+    transform-origin: center 150%;
+}
+body:hover #violet{
+    transform:rotate(30deg);
+    transform-origin: center 150%;
+}
+body:hover #purple{
+    transform:rotate(20deg);
+    transform-origin: center 150%;
+}
+body:hover #aqua{
+    transform:rotate(10deg);
+    transform-origin: center 150%;
+}
+body:hover #green{
+    transform:rotate(-0deg);
+    transform-origin: center 150%;
+}
+body:hover #light-green{
+    transform:rotate(-10deg);
+    transform-origin: center 150%;
+}
+body:hover #yellow{
+    transform:rotate(-20deg);
+    transform-origin: center 150%;
+}
+body:hover #orange{
+    transform: rotate(-30deg);
+    transform-origin: center 150%;
+}
+body:hover #red{
+    transform: rotate(-40deg);
+    transform-origin: center 150%;
+} 

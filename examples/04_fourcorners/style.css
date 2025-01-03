@@ -1,0 +1,14 @@
+body{
+    width:100vh;
+    height:100vw;
+    display:flexbox;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+}
+
+main{
+    background-color:white;
+    width:40vw;
+    height:40vh;
+}
